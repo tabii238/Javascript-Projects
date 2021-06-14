@@ -4,40 +4,19 @@
         <script src="JS/main.js"></script>
     </head>
     <body>
-        <p id="add">
-        7 + 10 =
-        <button onclick ="getElementById('add').innerHTML = myFunction(7, 10)">Click for Result</button>
-        </p>
+        <p id="add" onclick="myFunction(7, 10)">Click for sum of 7 + 10</p>
 
-        <p id ="subtract">
-        15 - 12 =
-        <button onclick = "getElementById('subtract').innerHTML = subtractFunction(15, 12)">Click for Result</button>
-        </p>
+        <p id ="subtract" onclick = "subtractFunction(15, 12)">Click for the difference of 15 - 12</p>
 
-        <p id ="multiply">
-        9 x 4 =
-        <button onclick = "getElementById('multiply').innerHTML = multiplyFunction(9, 4)">Click for Result</button>
-        </p>
+        <p id ="multiply" onclick = "multiplyFunction(9, 4)">Click for the product of 9 * 4</p>
 
-        <p id ="division">
-        330 / 10 =
-        <button onclick = "getElementById('division').innerHTML = divideFunction(330, 10)">Click for Result</button>
-        </p>
+        <p id ="divide" onclick = "divideFunction(330, 10)">Click for the quotient of 330 / 10</p>
 
-        <p id = "multiple_operations">
-        3 + 10 x 11 / 4 - 2 =
-        <button onclick = "getElementById('multiple_operations').innerHTML = operationsFunction(3, 10, 11, 4, 2)">Click for Result</button>
-        </p>
+        <p id = "multiple_operations" onclick = "operationsFunction(3, 10, 11, 4, 2)">Click for Result of  3 + 10 * 11 / 4 - 2;</p>
 
-        <p id = "modulus">
-        25 % 4 =
-        <button onclick = "getElementById('modulus').innerHTML = modulusFunction(25, 4)">Click for Result</button>
-        </p>
+        <p id = "modulus" onclick = "modulusFunction(25, 4)">Click for remainder of 25 % 4</p>
 
-        <p id = "negation">
-        Negation function =
-        <button onclick = "getElementById('negation').innerHTML = negationFunction(20)">Click for Result</button>
-        </p>
+        <p id = "negation" onclick = "negationFunction(20)">Click for result of negation function</p>
 
     </body>
 </html>
