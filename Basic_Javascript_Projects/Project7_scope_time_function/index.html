@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="JS/main.js"></script>
+    </head>
+<body>
+    <p>This function uses global variables:</p>
+    <p id="Multiply" onclick="Multiply()">Click to multiply 12 and 34</p>
+
+    <p>This function uses the same global variables:</p>
+    <p id="Subtract" onclick="Subtract()">Click to subtract 34 from 12</p>
+    
+    <p>This function uses local variables:</p>
+    <p id="Divide" onclick="Divide()">Click to divide 400 by 5</p>
+
+    <p>This function attempts to use local variables from the last function </p>
+    <p id="Add" onclick="Add()">Click to add 400 and 5</p>
+
+    <p id="Message" onclick="AM_Message()">Click to call AM Message function</p>
+
+    <h3>Condo Bookings</h3>
+    <p>Enter number of nights:</p>
+    <input id="Nights" Value="" />
+    <p id="How_many_nights?"></p>
+    <button onclick="booking()">Check availability</button>
+
+    <p id="Time_of_day"></p>
+    <button onclick="Time_function()">Click here to get the time.</button>
+</body>
+</html>
