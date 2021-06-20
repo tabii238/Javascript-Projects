@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Example of an Arrow Function</title>
+    </head>
+<body>
+    <p>This example uses a regular function, then changed to an arrow function:</p>
+    
+    <p id = "arrow"></p>
+    <script>
+    var greeting;
+
+    greeting = () => {
+        return "Good Morning!";
+    }
+
+    document.getElementById("arrow").innerHTML = greeting();
+    </script>
+</body>
+</html>
