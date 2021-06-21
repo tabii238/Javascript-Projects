@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="JavaScript/Javascript_2.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="CSS/CSS_1.css">
+    </head>
+<body>
+    <div class = "form">
+    <h2>Appointment Request Form:</h2>
+    <form name="myForm" action="https://formspree.io/f/mayajyvr" onsubmit="return validateForm()" method="post">
+        <label for = "fname">First name:</label>
+    <br>
+        <input type="text" id = "fname"
+    name="fname" value=""><br>
+        <label for="lname">Last name:</label>
+    <br>
+        <input type="text" id="lname"
+    name="lname" value=""><br><br>
+        <label for="day">Preferred day of the week:</label>
+    <br>
+        <input type="text" id="day"
+    name="day" value=""><br><br><br>
+        <label for="time">Preferred time of day (i.e. morning or afternoon):</label>
+    <br>
+        <input type="text" id="time"
+    name="time" value=""><br><br><br><br>
+    <input type="submit" value="Submit">
+    <br><br>
+    </div>
+</form>
+</body>
+</html>
