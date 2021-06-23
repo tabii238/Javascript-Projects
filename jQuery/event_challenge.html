@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- jquery referenceto define and execute the code below it-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+        // function used to display timestamp event:
+        $(document).ready(function() {
+            $("button").click(function(event) {
+                $("span").text(event.timeStamp);
+            });
+        });
+        </script>
+    </head>
+    <body>
+    <p>Example of a jQeary Event Property:</p>
+        <!-- example of timeStamp event-->
+        <p>The click event occurred <span style="color: purple">unknown</span> milliseconds after January 1, 1970.
+        </p>
+        <!-- button to call function-->
+        <button>Click me</button>
+
+    </body>
+</html>

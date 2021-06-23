@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Click the button to display the date and time this document was modified.</p>
+        <!-- button to call the function defined below-->
+        <button onclick="myFunction()">Try it</button>
+        <!-- paragraph in which the result of the function defined below will be displayed:-->
+        <p id="challenge"></p>
+
+        <script>
+        // function to display the date and time the document was last modified:
+        function myFunction() {
+            var x = document.lastModified;
+            document.getElementById("challenge").innerHTML = x;
+        }
+        </script>
+
+    </body>
+</html>

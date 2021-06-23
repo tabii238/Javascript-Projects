@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--jQuery reference to deifne and execute the code below it-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            // functions to cause paragraph element to fade in or out on button clicks
+            $(document).ready(function() {
+                $(".buttonA").click(function(){
+                    $("p").fadeOut();
+                });
+                $(".buttonB").click(function(){
+                    $("p").fadeIn();
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <p>Use the buttons below to fade this paragraph</p>
+        <!--buttons to call functions defined above-->
+        <button class="buttonA">Fade out</button>
+        <button class="buttonB">Fade in</button>
+
+    </body>
+</html>
