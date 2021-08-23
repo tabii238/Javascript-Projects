@@ -2,10 +2,10 @@
 These are some small projects and assignments I completed throughout the JavaScript course of my bootcamp!
 
 Projects:
-- Pizza Menu
-- Tic-Tac-Toe Game
-- Calculator
-- To Do App
+- [Pizza Menu](https://github.com/tabii238/Javascript-Projects/tree/main/Basic_Javascript_Projects/Pizza_Project)
+- [Tic-Tac-Toe Game](https://github.com/tabii238/Javascript-Projects/tree/main/Basic_Javascript_Projects/TicTacToe)
+- [Calculator](https://github.com/tabii238/Javascript-Projects/blob/main/JavaScript%20Projects/calculator.html)
+- [To Do App](https://github.com/tabii238/Javascript-Projects/tree/main/Basic_Javascript_Projects/todo_app)
 
 **Pizza Menu:**
   
